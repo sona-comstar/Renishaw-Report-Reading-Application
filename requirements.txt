@@ -1,0 +1,22 @@
+# ========================= CORE DEPENDENCIES =========================
+pandas>=1.5.0
+pyodbc>=4.0.0
+watchdog>=2.0.0
+Flask>=2.0.0
+Werkzeug>=2.0.0
+python-dateutil>=2.8.0
+chardet>=5.0.0
+
+# ========================= SECURITY & SESSION MANAGEMENT =========================
+cryptography>=3.4.0        # Security for password hashing
+itsdangerous>=2.0.0        # Session security (Flask dependency)
+blinker>=1.4               # Flask signals support
+
+# ========================= PRODUCTION SERVER =========================
+waitress>=2.0.0            # Production WSGI server (better than Flask dev server)
+
+# ========================= SYSTEM MONITORING (OPTIONAL) =========================
+psutil>=5.8.0              # System resource monitoring (optional)
+
+# ========================= DEVELOPMENT (OPTIONAL) =========================
+python-dotenv>=0.19.0      # Load environment variables from .env file
